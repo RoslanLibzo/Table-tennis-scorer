@@ -1,0 +1,71 @@
+#mainBox {
+   display: flex;
+   flex-direction:row;
+}
+
+#col1 {
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+#col2 {
+    display:flex;
+    flex-direction: column;
+    width: 450px;
+    border-width: 0.5px;
+    border-color: rgb(177, 177, 177);
+    border-style: solid;
+}
+
+#col3 {
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+}
+h1{
+    text-align: center;
+}
+button {
+    border-radius: 5%;
+    padding: 0px;
+    margin: 0px;
+    display: flexbox;
+    font-size: 1em;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: none;
+    
+    
+}
+#button1 {
+    flex-basis: 33.333%;
+    color: white;
+    background-color: rgb(4, 136, 136);
+}
+#button2 {
+    flex-basis: 33.333%;
+    color: white;
+    background-color: rgb(238, 165, 177);
+}
+#button3 {
+    flex-basis: 33.333%;
+    color: white;
+    background-color: rgb(139, 204, 41);
+}
+#buttons {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#boxSelection {
+    display:flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color:rgb(177, 177, 177);
+    border-width: 0.5px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+
+}
